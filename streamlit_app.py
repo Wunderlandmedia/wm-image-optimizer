@@ -4,7 +4,7 @@ import tinify
 import os
 
 # Set your Tinify API key here
-TINIFY_API_KEY = "xxxx"
+TINIFY_API_KEY = "xxxxx"
 tinify.key = TINIFY_API_KEY
 
 st.title("🎈 Image Optimizer App")
