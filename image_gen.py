@@ -3,13 +3,10 @@ from PIL import Image
 import tinify
 import os
 
-# Set your Tinify API key from environment variable
-TINIFY_API_KEY = os.getenv("TINIFY_API_KEY")
-if not TINIFY_API_KEY:
-    st.error("Tinify API key not found. Please set the TINIFY_API_KEY environment variable.")
-else:
-    tinify.key = TINIFY_API_KEY
-    
+# Set your Tinify API key here
+TINIFY_API_KEY = "xxxx"
+tinify.key = TINIFY_API_KEY
+
 st.title("🎈 Image Optimizer App")
 
 st.write(
