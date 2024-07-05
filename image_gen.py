@@ -6,7 +6,7 @@ from optimize_images import optimize_image
 
 # Set your Tinify API key
 TINIFY_API_KEY = "YOUR_TINIFY_API_KEY"
-tinify.key = TINIFY_API_KEY
+tinify.key = Zcq3q7mNPRJHBk89zc3xjB2TXwx5Yjgc
 
 st.title("🎈 Image Optimizer App")
 
